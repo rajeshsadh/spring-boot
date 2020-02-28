@@ -15,8 +15,8 @@ import com.netflix.eureka.registry.rule.AlwaysMatchInstanceStatusRule;
 @Configuration
 public class ZipkinConfig {
  
-    @Bean
+    /*@Bean
     public AlwaysSampler alwaysSampler() {
         return new AlwaysSampler();
-    }
+    }*/
 }
